@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const helmet = require('helmet');
 
-var indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index');
 const movieRouter = require('./routes/movie');
 const searchRouter = require('./routes/search');
 
