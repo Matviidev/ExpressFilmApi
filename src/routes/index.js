@@ -21,7 +21,6 @@ router.get('/most_popular', (req, res, next) => {
     page,
     results,
   });
-  // }
 });
 
 module.exports = router;
